@@ -1,0 +1,21 @@
+{
+  "name": "alessio",
+  "version": "0.0.1",
+  "description": "Share Home Assistant entities with Alexa",
+  "url": "https://github.com/sgobbit/hassio-alessio",
+  "slug": "alessio",
+  "stage": "stable",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "map": ["config:rw"],
+  "host_network": true,
+  "environment": {},
+  "homeassistant_api": true,
+  "options": {
+    "verbose": false
+  },
+  "schema": {
+    "verbose": "bool"
+  }
+}

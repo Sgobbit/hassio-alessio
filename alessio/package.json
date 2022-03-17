@@ -1,0 +1,14 @@
+{
+  "name": "alessio",
+  "version": "0.0.1",
+  "description": "Share Home Assistant entities with Alexa",
+  "author": "Sgobbi Federico <federico@sgobbi.it>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
